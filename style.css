@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body{
+	background: url(images/moon-fullhd.jpg);
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+.no-marker-li{
+	list-style-type: none;
+}
