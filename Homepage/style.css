@@ -11,3 +11,6 @@ a{
 	color: white;
 }
 
+.no-marker-li{
+	list-style-type: none;
+}
