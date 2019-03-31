@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 @keyframes moveIt {
-  from {background-position: top left;}
-  to {background-position: 40% 0%;}
+  from {background-position: 0% 0%;}
+  to {background-position: 40% 5%;}
 }
 
 body{
@@ -12,7 +12,7 @@ body{
 	font-family: 'Roboto Slab', serif;
 	font-size: 30px;
 	color: white;
-	animation: moveIt 15s alternate infinite;
+	animation: moveIt 12s alternate infinite;
 	animation-timing-function:ease-in-out;
 }
 
