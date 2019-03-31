@@ -2,7 +2,7 @@
 
 @keyframes moveIt {
   from {background-position: top left;}
-  to {background-position: top right;}
+  to {background-position: 40% 0%;}
 }
 
 body{
