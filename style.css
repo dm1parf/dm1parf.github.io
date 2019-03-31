@@ -12,7 +12,7 @@ body{
 	font-family: 'Roboto Slab', serif;
 	font-size: 30px;
 	color: white;
-	animation: moveIt 6s alternate infinite;
+	animation: moveIt 15s alternate infinite;
 	animation-timing-function:ease-in-out;
 }
 
