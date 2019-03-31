@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
+@keyframes moveIt {
+  from {background-position: top left;}
+  to {background-position: top right;}
+}
+
 body{
 	background: url(images/Homepage-background.jpeg);
+	background-size: 2000px;
 	background-repeat: no-repeat;
 	font-family: 'Roboto Slab', serif;
 	font-size: 30px;
 	color: white;
+	animation: moveIt 6s alternate infinite;
+	animation-timing-function:ease-in-out;
 }
 
 a{
