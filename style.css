@@ -1,25 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
-@keyframes moveIt {
-  from {background-position: 0% 0%;}
-  to {background-position: 40% 5%;}
+:root {
+  --bg-color: #fafafa;
+  --text-color: #222;
+  --link-color: #1a73e8;
 }
 
-body{
-	background: url(images/Homepage-background.jpeg);
-	background-size: 2000px;
-	background-repeat: no-repeat;
-	font-family: 'Roboto Slab', serif;
-	font-size: 30px;
-	color: white;
-	animation: moveIt 12s alternate infinite;
-	animation-timing-function:ease-in-out;
+body {
+  margin: 0;
+  padding: 0 1rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  background: var(--bg-color) url(images/Homepage-background.jpeg) no-repeat center fixed;
+  background-size: cover;
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-a{
-	color: white;
+body.dark {
+  --bg-color: #121212;
+  --text-color: #eee;
+  --link-color: #8ab4f8;
 }
 
-.no-marker-li{
-	list-style-type: none;
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+#theme-toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.projects {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.projects li {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
